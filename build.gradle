@@ -1,0 +1,17 @@
+configure(allprojects) { project ->
+    apply plugin: 'java'
+    apply plugin: 'idea'
+}
+
+group = "org.transport"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    
+
+}
+sourceSets.main.resources { srcDirs = ["src/main/java"]; include "**/*.*" }
